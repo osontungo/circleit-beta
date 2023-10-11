@@ -134,7 +134,7 @@ export default function FeedChanger({
                     setIsDropdownExpanded(false);
                   }}>
                   <img
-                    src={`https://diamondapp.com/api/v0/get-single-profile-picture/${users.PublicKeyBase58Check}?fallback=https://diamondapp.com/assets/img/default_profile_pic.png`}
+                    src={`https://diamondapp.com/api/v1/get-single-profile-picture/${users.PublicKeyBase58Check}?fallback=https://diamondapp.com/assets/img/default_profile_pic.png`}
                     className='h-10 w-10 rounded-full'
                   />
                   <p>{users.Username}</p>

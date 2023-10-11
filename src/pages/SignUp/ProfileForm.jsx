@@ -75,7 +75,7 @@ export default function ProfileForm({ desoObj, publicKey, rootRef }) {
         user.profile.PublicKeyBase58Check
       );
       const response = await fetch(
-        "https://node.deso.org/api/v0/upload-image",
+        "https://node.deso.org/api/v1/upload-image",
         {
           method: "POST",
           body: formData,

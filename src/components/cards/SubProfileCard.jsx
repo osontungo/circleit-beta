@@ -123,7 +123,7 @@ function SubProfileCard({ profile }) {
               <div className='flex flex-col items-center justify-center -mt-12 relative z-10'>
                 <Link to={`${url}${profile.Username}`} className='relative'>
                   <img
-                    src={`https://node.deso.org/api/v0/get-single-profile-picture/${profile.PublicKeyBase58Check}?fallback=https://diamondapp.com/assets/img/default_profile_pic.png`}
+                    src={`https://node.deso.org/api/v1/get-single-profile-picture/${profile.PublicKeyBase58Check}?fallback=https://diamondapp.com/assets/img/default_profile_pic.png`}
                     className='w-16 h-16 rounded-full border-4 darkenBg darkenBorder'
                     alt={profile.Username}
                   />
